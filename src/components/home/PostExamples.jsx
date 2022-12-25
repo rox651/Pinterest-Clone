@@ -1,20 +1,20 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { dataImagesHome } from "../../data";
-import BgWave from "../../assets/images-home/wave.png"
 
 export const PostExamples = () => {
    return (
       <>
-         <section className="relative  min-h-screen  bg-cover bg-center bg-no-repeat"
-         style={{
-            backgroundImage: `url(${BgWave})`        }}>
-            <div className="px-5  max-w-7xl mx-auto columns-[320px]  ">
+         <section className="relative  min-h-screen  bg-cover bg-center bg-no-repeat">
+            <div className="px-5  max-w-7xl mx-auto columns-[150px] lg:columns-[320px]  ">
                {dataImagesHome.map(post => {
                   return (
                      <LazyLoadImage
                         key={post.slug}
                         alt={post.slug}
+                        
+                        
+                        lazy="load"
                         className="mb-5  transition-transform duration-300 z-0 relative"
                         src={post.url}
                         effect="blur"
