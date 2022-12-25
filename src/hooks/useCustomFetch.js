@@ -11,7 +11,7 @@ export const useCustomFetch = (query, params) => {
    const result = useQuery({
       queryKey: ["posts"],
       queryFn: getData,
-      select: resp => orderDateData(resp).slice(0,8),
+      select: resp => orderDateData(resp),
    });
 
    return result;
