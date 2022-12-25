@@ -12,9 +12,7 @@ export const PostExamples = () => {
                      <LazyLoadImage
                         key={post.slug}
                         alt={post.slug}
-                        
-                        
-                        lazy="load"
+                        loading="lazy"
                         className="mb-5  transition-transform duration-300 z-0 relative"
                         src={post.url}
                         effect="blur"

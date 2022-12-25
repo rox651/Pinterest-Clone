@@ -1,23 +1,23 @@
-import Image1 from "../assets/images-home/images-home (1).webp";
-import Image2 from "../assets/images-home/images-home (2).webp";
-import Image3 from "../assets/images-home/images-home (3).webp";
-import Image4 from "../assets/images-home/images-home (4).webp";
-import Image5 from "../assets/images-home/images-home (5).webp";
-import Image6 from "../assets/images-home/pexels-deva-darshan-1173777.webp";
-import Image7 from "../assets/images-home/pexels-kaique-rocha-775201.webp";
+import Image1 from "../assets/images-home/pexels-ali-ramazan-çiftçi-14397670.jpeg";
+import Image2 from "../assets/images-home/pexels-deva-darshan-1173777.jpg";
+import Image3 from "../assets/images-home/pexels-omar-houchaimi-752525.jpeg";
+import Image4 from "../assets/images-home/pexels-ricardo-esquivel-1802268.jpeg";
+import Image5 from "../assets/images-home/pexels-sebastian-palomino-1955134.jpeg";
+import Image6 from "../assets/images-home/pexels-stephan-seeber-1054218.jpeg";
+import Image7 from "../assets/images-home/pexels-kaique-rocha-775201.jpeg";
 
 export const dataImagesHome = [
    {
       slug: "pro-mountain-photo",
-      url: Image1,
+      url: Image6,
    },
    {
       slug: "pro-camera",
-      url: Image2,
+      url: Image3,
    },
    {
       slug: "mountain-street",
-      url: Image3,
+      url: Image5,
    },
    {
       slug: "sea-photography",
@@ -25,15 +25,14 @@ export const dataImagesHome = [
    },
    {
       slug: "cat-in-the-floor",
-      url: Image5,
+      url: Image1,
    },
    {
       slug: "nature-and-highway",
-      url: Image6,
+      url: Image2,
    },
    {
       slug: "forest-image-professional",
       url: Image7,
    },
-  
 ];
