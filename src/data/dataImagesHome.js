@@ -1,10 +1,10 @@
-import Image1 from "../assets/images-home/pexels-ali-ramazan-çiftçi-14397670.jpeg";
-import Image2 from "../assets/images-home/pexels-deva-darshan-1173777.jpg";
-import Image3 from "../assets/images-home/pexels-omar-houchaimi-752525.jpeg";
-import Image4 from "../assets/images-home/pexels-ricardo-esquivel-1802268.jpeg";
-import Image5 from "../assets/images-home/pexels-sebastian-palomino-1955134.jpeg";
-import Image6 from "../assets/images-home/pexels-stephan-seeber-1054218.jpeg";
-import Image7 from "../assets/images-home/pexels-kaique-rocha-775201.jpeg";
+import Image1 from "../assets/images-home/pexels-ali-ramazan-çiftçi-14397670.webp";
+import Image2 from "../assets/images-home/pexels-deva-darshan-1173777.webp";
+import Image3 from "../assets/images-home/pexels-omar-houchaimi-752525.webp";
+import Image4 from "../assets/images-home/pexels-ricardo-esquivel-1802268.webp";
+import Image5 from "../assets/images-home/pexels-sebastian-palomino-1955134.webp";
+import Image6 from "../assets/images-home/pexels-stephan-seeber-1054218.webp";
+import Image7 from "../assets/images-home/pexels-kaique-rocha-775201.webp";
 
 export const dataImagesHome = [
    {
